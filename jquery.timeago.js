@@ -114,7 +114,7 @@
     var $s = $t.settings;
     if ($s.refreshMillis > 0) {
       var intervalId = setInterval(function() {
-        var destroyed = 0
+        var destroyed = 0;
 
         self.each(function() {
           if ($(this).parents().filter('html').length === 0) {
@@ -126,7 +126,6 @@
 
         if (destroyed === self.length) {
           clearInterval(intervalId);
-          console.log('cleared');
         }
       }, $s.refreshMillis);
     }
