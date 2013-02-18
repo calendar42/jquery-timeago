@@ -1,9 +1,9 @@
 // Dutch
 jQuery.timeago.settings.strings = {
   prefixAgo: null,
-  prefixFromNow: "",
+  prefixFromNow: "Over",
   suffixAgo: "geleden",
-  suffixFromNow: "van nu",
+  suffixFromNow: "",
   seconds: "minder dan een minuut",
   minute: "ongeveer een minuut",
   minutes: "%d minuten",
