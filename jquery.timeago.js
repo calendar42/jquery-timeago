@@ -33,9 +33,9 @@
       allowFuture: true,
       strings: {
         prefixAgo: null,
-        prefixFromNow: null,
+        prefixFromNow: "in",
         suffixAgo: "ago",
-        suffixFromNow: "from now",
+        suffixFromNow: null,
         seconds: "less than a minute",
         minute: "about a minute",
         minutes: "%d minutes",
